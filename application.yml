@@ -1,7 +1,8 @@
 ---
 spring:
-  profiles:
-    active: int
+  application:
+    name: cloud-config-client
+  profiles: int
 
 secret: 12345 from int
 ---
