@@ -1,5 +1,7 @@
 ---
 spring:
+  application:
+    name: cloud-config-client
   profiles:
     active: dev
 
