@@ -2,8 +2,7 @@
 spring:
   application:
     name: cloud-config-client
-  profiles:
-    active: dev
+  profiles: dev
 
 secret: 12345 from dev
 ---
